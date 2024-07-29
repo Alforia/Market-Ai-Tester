@@ -1,0 +1,48 @@
+.mesh-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .gradient-circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    opacity: 0.6;
+  }
+  
+  .circle1 {
+    /* background: radial-gradient(circle, #c5ced0 0%, #FFFFFF 70%); */
+    top: 10%;
+    left: 10%;
+  }
+  
+  .circle2 {
+    /* background: radial-gradient(circle, #d0a6a6 0%, #FFFFFF 70%); */
+    background: radial-gradient(circle, #ceacac 0%, #FFFFFF 70%);
+    bottom: 10%;
+    left: 20%;
+    /* z-index: 10; */
+  }
+  
+  .circle3 {
+    /* background: radial-gradient(circle, rgba(0, 150, 255, 1) 0%, rgba(0, 150, 255, 0) 70%); */
+    /* background: radial-gradient(circle, #bc9381 0%, #e1dfdc43 70%); */
+    /* background: radial-gradient(circle, #d0a6a6 0%, #FFFFFF 70%); */
+    background: radial-gradient(circle, #caaaaa 0%, #FFFFFF 70%);
+    top: 30%;
+    left: 70%;
+  }
+  
+  .circle4 {
+    /* background: radial-gradient(circle, #bc9381 0%, #e1dfdc43 70%); */
+    /* background: radial-gradient(circle, #d0a6a6 0%, #FFFFFF 70%); */
+    top: 50%;
+    left: 50%;
+  }
+  
